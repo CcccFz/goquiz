@@ -1,0 +1,130 @@
+---
+sections:
+  - key: lang-spec
+    name: 语言规范
+    quizzes:
+      - key: subslice-grow
+        name: subslice引用
+      - key: short-declairation
+        name: 短声明
+      - key: interface-nil
+        name: interface是否等于nil的判断
+      - key: map-ok-idiom
+        name: map存取数据
+      - key: pointer
+        name: 指针基本操作
+      - key: empty-interface
+        name: interface{}万能指针
+      - key: for-pointer
+        name: 临时变量的指针
+      - key: label-break
+        name: break外层循环
+      - key: global-varible
+        name: 全局变量
+      - key: defer-closefile
+        name: defer栈
+      - key: defer-panic
+        name: panic栈
+      - key: defer-recover
+        name: recover
+      - key: goroutine-closure
+        name: goroutine闭包参数
+      - key: type-shadowing
+        name: receiver函数的"仿重载"
+      - key: string-bytes
+        name: string转换为bytes
+      - key: mutex-map
+        name: map并发操作的临界区
+      - key: DeepEqual
+        name: 深度比较
+      - key: Gosched
+        name: goroutine让先
+      - key: map-addressing
+        name: map的值的内部字段可修改性
+      - key: sort-Slice
+        name: Struct的Slice的排序
+  - key: lib-pack
+    name: 标准库和包
+    quizzes:
+      - key: init-import
+        name: init函数
+      - key: json-unmarshal
+        name: json反序列化
+      - key: sync-map
+        name: map并发存取
+      - key: utf8-len
+        name: utf8字符串长度
+      - key: regex-multiline
+        name: 正则表达式的高级模式
+      - key: readline
+        name: 文本文件的行遍历
+      - key: container-heap
+        name: 堆容器
+      - key: context-withtimeout
+        name: context超时
+      - key: flag
+        name: 命令行参数解析
+      - key: text-template
+        name: 文本模版
+      - key: html-template
+        name: html模版
+      - key: http-server
+        name: http服务
+      - key: sql-query
+        name: sql查询
+  - key: toolchain
+    name: 工具链
+    quizzes:
+      - key: gcflags
+        name: gcflags参数
+      - key: benchmark-N
+        name: benchmark次数变量
+      - key: govendor-gopath
+        name: govendor路径覆盖
+      - key: GOMAXPROCS
+        name: GOMAXPROCS
+      - key: shared-object
+        name: 共享库
+      - key: GODEBUG
+        name: GODEBUG参数
+      - key: GOROOT-GOPATH
+        name: $GOROOT和$GOPATH
+      - key: go-generate
+        name: go generate
+      - key: http-pprof
+        name: http server的pprof
+      - key: path-wildcard
+        name: ./...路径通配符
+  - key: internals
+    name: 内部原理
+    quizzes:
+      - key: unsafe-bytes-string
+        name: string内部结构
+      - key: unsafe-slice-array
+        name: slice内部结构
+      - key: defer-overhead
+        name: defer的性能成本
+      - key: map-malloc
+        name: map的malloc阈值容量
+      - key: runtime-newobject
+        name: 内存分配
+      - key: SSA
+        name: SSA
+      - key: AST
+        name: AST
+      - key: bootstrap
+        name: Go引导过程
+      - key: channel-sync-async
+        name: channel同步异步的区别
+      - key: finalizer
+        name: 析构函数
+      - key: gc
+        name: gc工作机制
+      - key: goroutine-sleep
+        name: goroutine休眠
+      - key: object-memory
+        name: 内存分配过程
+      - key: stack-heap
+        name: stack和heap内存分配判定
+      - key: stop-goroutine
+        name: goroutine暂停或者终止
